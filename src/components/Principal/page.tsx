@@ -71,7 +71,7 @@ export default function Page() {
             influential voice in the legal community.
           </p>
 
-          <h4 className="mt-6 text-lg font-semibold">Education</h4>
+          <h4 className="mt-6 text-lg font-semibold text-black">Education</h4>
           <ul className="list-disc list-inside mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed sm:px-0">
             <li>Ph.D. University of Ilorin, Nigeria</li>
             <li>LL.M University of Lagos, Nigeria</li>

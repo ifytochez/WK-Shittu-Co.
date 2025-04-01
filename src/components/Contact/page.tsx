@@ -57,16 +57,16 @@ const page = () => {
           <input
             type="text"
             placeholder="Subject"
-            className="w-full border border-gray-300 px-4 py-6 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-8"
+            className="w-full border border-gray-300 px-4 py-6 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-8 placeholder-black sm:placeholder-gray-400"
           />
           <input
             type="email"
             placeholder="Email"
-            className="w-full border border-gray-300 px-4 py-6 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-8"
+            className="w-full border border-gray-300 px-4 py-6 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-8 placeholder-black sm:placeholder-gray-400"
           />
           <textarea
             placeholder="Message"
-            className="w-full border border-gray-300 px-4 py-3 rounded-md h-40 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full border border-gray-300 px-4 py-3 rounded-md h-40 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-black sm:placeholder-gray-400"
           />
           <div className="flex justify-start pb-20">
             <button
