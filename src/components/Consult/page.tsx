@@ -2,7 +2,7 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="relative flex flex-col justify-center z-10 w-full text-center px-4 sm:px-0 bg-white">
+    <div className="relative flex flex-col justify-center z-10 w-full text-center px-4 sm:px-0 bg-white pt-16 sm:pt-0">
       <h2 className="text-base sm:text-[2.2rem] font-bold text-black flex justify-center">
         CONSULT W.K. SHITTU & Co.
       </h2>
