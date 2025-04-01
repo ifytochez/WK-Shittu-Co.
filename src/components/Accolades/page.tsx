@@ -4,7 +4,7 @@ import Accolades from "../../images/accolades.jpg";
 
 const Page = () => {
   return (
-    <div className="flex justify-center min-h-[90vh] px-12 sm:px-16 mt-20 sm:mt-40">
+    <div className="flex justify-center min-h-[90vh] px-12 sm:px-16 mt-20 sm:mt-40 bg-white">
       <div className="flex flex-col sm:flex-row items-start max-w-7xl w-full sm:w-3/4 mx-auto">
         {/* Image Section */}
         <div className="relative w-full sm:w-[46%] flex justify-center sm:justify-end sm:pr-12 mb-6 sm:mb-0">

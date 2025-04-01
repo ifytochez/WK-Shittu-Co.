@@ -63,7 +63,7 @@ const Page = () => {
       </section>
 
       <section className="relative flex flex-col lg:flex-row items-center justify-center py-12 sm:py-24 px-4 sm:px-6 mt-8">
-        <h1 className="absolute top-[-40px] sm:top-[-60px] left-1/2 -translate-x-1/2 text-[5rem] sm:text-[12rem] font-extrabold text-gray-200 opacity-40 tracking-widest">
+        <h1 className="hidden sm:block absolute top-[-40px] sm:top-[-60px] left-1/2 -translate-x-1/2 text-[5rem] sm:text-[12rem] font-extrabold text-gray-200 opacity-40 tracking-widest">
           WELCOME
         </h1>
 
