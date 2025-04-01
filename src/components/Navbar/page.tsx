@@ -141,9 +141,17 @@ export default function Page() {
 
           <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? (
-              <X className="text-white w-6 h-6" />
+              <X
+                className={`w-6 h-6 transition-colors duration-300 ${
+                  scrolled ? "text-black" : "text-white"
+                }`}
+              />
             ) : (
-              <Menu className="text-white w-6 h-6" />
+              <Menu
+                className={`w-6 h-6 transition-colors duration-300 ${
+                  scrolled ? "text-black" : "text-white"
+                }`}
+              />
             )}
           </button>
         </nav>

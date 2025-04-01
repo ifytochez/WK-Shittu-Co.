@@ -4,7 +4,7 @@ import Law from "../../images/image.png";
 
 const page = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 bg-white text-center relative sm:pt-60 w-[90%] mx-auto sm:w-full">
+    <section className="py-20 px-[5%] sm:px-6 bg-white text-center relative sm:pt-60 mx-auto w-full">
       <h1 className="text-base sm:text-[2.2rem] font-[600] text-black">
         PRACTICE AREAS
       </h1>
