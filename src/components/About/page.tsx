@@ -5,12 +5,12 @@ import Justice from "../../images/law_balance_scale.jpg";
 const Page = () => {
   return (
     <div className="bg-white text-gray-900 w-full pt-20">
-      <section className="text-center py-12 sm:px-4 sm:py-16 w-[90%] sm:w-full mx-auto">
-        <h1 className="text-base sm:text-[2.2rem] font-semibold text-black">
+      <section className="sm:text-center py-12 sm:px-4 sm:py-16 w-[90%] sm:w-full mx-auto">
+        <h1 className="text-sm sm:text-[2.2rem] font-semibold text-black text-center">
           LEGAL PRACTITIONERS & ARBITRATORS
         </h1>
 
-        <p className="mt-4 text-base sm:text-xl text-gray-700 max-w-3xl mx-auto px-2 sm:px-0">
+        <p className="mt-4 text-base sm:text-xl text-gray-700 max-w-3xl mx-auto ">
           W.K. Shittu & Co. was established over two decades ago. Over the
           years, we have become a leading brand in Nigeria with efficient
           lawyers of cognate experience in their various chosen areas of law -
@@ -19,12 +19,12 @@ const Page = () => {
         <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
-      <section className="text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
-        <h1 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694]">
+      <section className="sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
+        <h1 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694] text-center">
           OUR MISSION
         </h1>
 
-        <p className="mt-4 text-base sm:text-xl text-gray-700 max-w-3xl mx-auto px-2 sm:px-0">
+        <p className="mt-4 text-base sm:text-xl text-gray-700 max-w-3xl mx-auto">
           Our mission is simple: to deliver unparalleled legal solutions that
           empower businesses, organizations, and individuals to thrive. We focus
           on building long-term relationships with our clients through
@@ -33,8 +33,8 @@ const Page = () => {
         <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
-      <section className="text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
-        <h1 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694]">
+      <section className="sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
+        <h1 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694] text-center">
           OUR VISION
         </h1>
 
@@ -47,8 +47,8 @@ const Page = () => {
         <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
-      <section className="text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
-        <h1 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694]">
+      <section className="sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
+        <h1 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694] text-center">
           OUR REPUTATION
         </h1>
 
@@ -81,11 +81,11 @@ const Page = () => {
           </div>
 
           {/* Right Side: Text Section */}
-          <div className="w-full lg:w-[50%] lg:pl-16 text-center lg:text-left">
-            <h2 className="text-base sm:text-[1.7rem] font-semibold text-[#034694]">
+          <div className="w-[90%] mx:auto lg:w-[50%] lg:pl-16 sm:text-center lg:text-left">
+            <h2 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694] text-center">
               OUR COMMITMENT TO YOU
             </h2>
-            <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed px-2 sm:px-0">
+            <p className="mt-2 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed">
               At WK Shittu & Co., we believe in providing personalized attention
               to every client. Whether you are a multinational corporation, a
               tech startup, or an individual seeking expert legal advice, we are
@@ -93,7 +93,7 @@ const Page = () => {
               your specific needs.
             </p>
 
-            <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed px-2 sm:px-0">
+            <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed">
               Our team is dedicated to understanding your business, your
               challenges, and your goals to help you make informed decisions. As
               we continue to evolve with our new branding, we remain steadfast

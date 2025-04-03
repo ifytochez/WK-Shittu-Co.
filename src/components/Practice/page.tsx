@@ -4,11 +4,11 @@ import Law from "../../images/image.png";
 
 const page = () => {
   return (
-    <section className="py-20 px-[5%] sm:px-6 bg-white text-center relative sm:pt-60 mx-auto w-full">
-      <h1 className="text-base sm:text-[2.2rem] font-[600] text-black">
+    <section className="py-20 px-[5%] sm:px-6 bg-white sm:text-center relative sm:pt-60 mx-auto w-[90%]">
+      <h1 className="text-base sm:text-[2.2rem] font-[600] text-black text-center">
         PRACTICE AREAS
       </h1>
-      <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed px-2 sm:px-0">
+      <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed">
         We have a range of Legal Experts dedicated to delivering expert advice
         on specific areas of Law.
       </p>

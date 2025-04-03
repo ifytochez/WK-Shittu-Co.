@@ -9,11 +9,11 @@ export default function Page() {
         MEET THE PRINCIPAL
       </h1>
 
-      <div className="relative z-10 max-w-7xl text-center">
-        <h2 className="text-base sm:text-[2.2rem] font-[600] text-black">
+      <div className="relative z-10 max-w-7xl sm:text-center w-[90%] mx-auto">
+        <h2 className="text-base sm:text-[2.2rem] font-[600] text-black text-center">
           MEET THE PRINCIPAL
         </h2>
-        <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed px-2 sm:px-0">
+        <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed">
           In each case, a client-lawyer is allocated to you, "the client"—
           employing divergent experiences from private and public sectors and
           through their collective expertise and experience, offers outstanding
