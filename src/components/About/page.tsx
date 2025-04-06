@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import "./about.css";
 import Justice from "../../images/law_balance_scale.jpg";
 
 const Page = () => {
   return (
-    <div className="bg-white text-gray-900 w-full pt-20">
-      <section className="sm:text-center py-12 sm:px-4 sm:py-16 w-[90%] sm:w-full mx-auto">
+    <div className="about bg-white text-gray-900 w-full pt-20">
+      <section className="legal sm:text-center py-12 sm:px-4 sm:py-16 w-[90%] sm:w-full mx-auto">
         <h1 className="text-sm sm:text-[2.2rem] font-semibold text-black text-center">
           LEGAL PRACTITIONERS & ARBITRATORS
         </h1>
@@ -19,7 +20,7 @@ const Page = () => {
         <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
-      <section className="sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
+      <section className="mission sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
         <h1 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694] text-center">
           OUR MISSION
         </h1>
@@ -33,7 +34,7 @@ const Page = () => {
         <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
-      <section className="sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
+      <section className="vision sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
         <h1 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694] text-center">
           OUR VISION
         </h1>
@@ -47,7 +48,7 @@ const Page = () => {
         <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
-      <section className="sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
+      <section className="reputation sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
         <h1 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694] text-center">
           OUR REPUTATION
         </h1>
@@ -62,15 +63,14 @@ const Page = () => {
         <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
-      <section className="relative flex flex-col lg:flex-row items-center justify-center py-12 sm:py-24 px-4 sm:px-6 mt-8">
-        <h1 className="hidden sm:block absolute top-[-40px] sm:top-[-60px] left-1/2 -translate-x-1/2 text-[5rem] sm:text-[12rem] font-extrabold text-gray-200 opacity-40 tracking-widest">
+      <section className="welcome relative flex flex-col lg:flex-row items-center justify-center py-12 sm:py-24 px-4 sm:px-6 mt-8">
+        <h1 className="welcome-text hidden sm:block absolute top-[-40px] sm:top-[-60px] left-1/2 -translate-x-1/2 text-[5rem] sm:text-[12rem] font-extrabold text-gray-200 opacity-40 tracking-widest">
           WELCOME
         </h1>
 
         <div className="max-w-7xl flex flex-col lg:flex-row items-center relative z-10 w-full gap-y-12 lg:gap-x-24">
-          {/* Left Side: Image Section */}
           <div className="relative w-full lg:w-[50%] flex flex-col items-center">
-            <div className="relative hidden sm:block z-10 w-full transform lg:-translate-x-25">
+            <div className="image-containerr relative hidden sm:block z-10 w-full transform lg:-translate-x-25">
               <Image
                 src={Justice}
                 alt="Lady Justice"
@@ -80,8 +80,7 @@ const Page = () => {
             <div className="absolute top-[5%] right-[-5%] w-[100%] h-full bg-[#034694] -z-10 hidden lg:block"></div>
           </div>
 
-          {/* Right Side: Text Section */}
-          <div className="w-[90%] mx:auto lg:w-[50%] lg:pl-16 sm:text-center lg:text-left">
+          <div className="commitment w-[90%] mx:auto lg:w-[50%] lg:pl-16 sm:text-center lg:text-left">
             <h2 className="text-sm sm:text-[1.7rem] font-semibold text-[#034694] text-center">
               OUR COMMITMENT TO YOU
             </h2>

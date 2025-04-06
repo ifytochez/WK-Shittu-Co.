@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import "./navbar.css";
 import Image from "next/image";
 import Logo from "../../images/Logo_gold.png";
 import About from "../About/page";
@@ -63,11 +64,11 @@ export default function Page() {
         id="home"
       >
         <nav
-          className={`fixed top-0 left-0 w-full flex justify-between items-center sm:px-64 py-3 z-50 transition-all duration-300 ${
+          className={`fixed top-0 left-0 w-full flex justify-between items-center px-3 sm:px-64 py-3 z-50 transition-all duration-300 ${
             scrolled
               ? "bg-white shadow-lg text-[#6e94c1]"
               : "bg-[#41708f] bg-opacity-80 text-white backdrop-blur-md"
-          }`}
+          } nav-padding-remove`}
         >
           <div className="flex items-center space-x-4">
             <Image

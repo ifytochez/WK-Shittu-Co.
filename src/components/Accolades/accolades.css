@@ -1,0 +1,24 @@
+@media (min-width: 640px) and (max-width: 760px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .text-container {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 2rem;
+  }
+  .text-container h2 {
+    font-size: 1.3rem;
+  }
+  .text-container ul {
+    margin-top: 0.7rem;
+  }
+  .text-container li {
+    padding: 0.6rem 1rem 0 0;
+    font-size: 1rem;
+  }
+}

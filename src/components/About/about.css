@@ -1,0 +1,75 @@
+@media (min-width: 640px) and (max-width: 760px) {
+  .welcome-text {
+    display: none !important;
+  }
+  .about {
+    padding-left: 9% !important;
+    padding-right: 9% !important;
+  }
+  .legal {
+    text-align: left;
+  }
+  .legal h1 {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .legal p {
+    font-size: 1rem;
+  }
+  .mission {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .mission h1 {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .mission p {
+    font-size: 1rem;
+  }
+
+  .vision {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .vision h1 {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .vision p {
+    font-size: 1rem;
+  }
+
+  .reputation {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .reputation h1 {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .reputation p {
+    font-size: 1rem;
+  }
+  .commitment {
+    width: 100%;
+    text-align: left;
+    padding: 0rem 0;
+  }
+  .commitment h2 {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+
+  .commitment p {
+    font-size: 1rem;
+  }
+
+  .welcome {
+    padding-left: 1rem !important;
+    padding-right: 0 !important;
+  }
+}

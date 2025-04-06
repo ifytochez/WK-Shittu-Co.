@@ -1,0 +1,6 @@
+@media (min-width: 640px) and (max-width: 760px) {
+  .nav-padding-remove {
+    padding-left: 20px !important; /* Adjust padding as needed */
+    padding-right: 20px !important;
+  }
+}

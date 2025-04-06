@@ -1,10 +1,11 @@
 import React from "react";
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import "./contact.css";
 
 const page = () => {
   return (
-    <div className="w-full px-[11%] flex flex-col-reverse md:flex-row justify-between items-center py-10 min-h-[80vh] bg-white">
-      <div className="w-full sm:w-[45%] space-y-6 text-gray-800">
+    <div className="w-full px-[11%] flex flex-col-reverse md:flex-row justify-between items-center py-10 min-h-[80vh] bg-white responsive-padding">
+      <div className="address w-full sm:w-[45%] space-y-6 text-gray-800">
         <div className="flex items-start space-x-3 pb-4">
           <FaMapMarkerAlt className="text-blue-900" />
           <p className="text-base sm:text-lg text-gray-900 max-w-4xl">
@@ -52,7 +53,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="w-full sm:w-[45%]">
+      <div className="form w-full sm:w-[45%]">
         <form className="space-y-4">
           <input
             type="text"

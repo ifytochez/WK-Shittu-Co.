@@ -1,0 +1,22 @@
+@media (min-width: 640px) and (max-width: 760px) {
+  .address {
+    width: 100%;
+  }
+  .address p {
+    font-size: 1rem;
+  }
+  .address a {
+    font-size: 1rem;
+  }
+  .form {
+    width: 100%;
+  }
+
+  .form button {
+    font-size: 1rem;
+  }
+  .responsive-padding {
+    padding-left: 9% !important;
+    padding-right: 9% !important;
+  }
+}

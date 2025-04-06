@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import "./practice.css";
 import Law from "../../images/image.png";
 
 const page = () => {
   return (
-    <section className="py-20 px-[5%] sm:px-6 bg-white sm:text-center relative sm:pt-60 px-[9%] sm:px-0">
+    <section className="practice py-20 px-[5%] sm:px-6 bg-white sm:text-center relative sm:pt-60 px-[9%] sm:px-0">
       <h1 className="text-base sm:text-[2.2rem] font-[600] text-black text-center">
         PRACTICE AREAS
       </h1>
@@ -14,11 +15,11 @@ const page = () => {
       </p>
       <div className="pt-8 sm:pt-12 border-b-2 border-[#034694] w-20 mx-auto"></div>
 
-      <h1 className="hidden sm:block absolute top-[80px] sm:top-[140px] left-1/2 -translate-x-1/2 text-[4rem] sm:text-[10rem] font-bold text-gray-200 opacity-40 tracking-normal">
+      <h1 className="practice-text hidden sm:block absolute top-[80px] sm:top-[140px] left-1/2 -translate-x-1/2 text-[4rem] sm:text-[10rem] font-bold text-gray-200 opacity-40 tracking-normal">
         PRACTICE AREAS
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-16 mt-12 sm:mt-16 max-w-7xl mx-auto relative z-10">
+      <div className="grid-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-16 mt-12 sm:mt-16 max-w-7xl mx-auto relative z-10">
         {[
           "Criminal Law",
           "Intellectual Property Law",

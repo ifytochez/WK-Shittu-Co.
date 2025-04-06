@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Accolades from "../../images/accolades.jpg";
+import "./accolades.css";
 
 const Page = () => {
   return (
     <div className="flex justify-center min-h-[90vh] px-12 sm:px-16 pt-20 sm:pt-40 bg-white">
-      <div className="flex flex-col sm:flex-row items-start max-w-7xl w-full sm:w-3/4 mx-auto">
-        {/* Image Section */}
-        <div className="relative w-full sm:w-[46%] flex justify-center sm:justify-end sm:pr-12 mb-6 sm:mb-0">
+      <div className="container flex flex-col sm:flex-row items-start max-w-7xl w-full sm:w-3/4 mx-auto">
+        <div className="image-container relative w-full sm:w-[46%] flex justify-center sm:justify-end sm:pr-12 mb-6 sm:mb-0">
           <div className="hidden sm:block absolute inset-0 bg-blue-900 -z-10 w-[97%] h-[102%] translate-x-3 translate-y-3"></div>
           <Image
             src={Accolades}
@@ -16,8 +16,7 @@ const Page = () => {
           />
         </div>
 
-        {/* Text Section */}
-        <div className="w-full sm:w-[46%] sm:pl-28 self-start">
+        <div className="text-container w-full sm:w-[46%] sm:pl-28 self-start">
           <h2 className="text-base sm:text-[2.2rem] font-bold text-black flex">
             OUR ACCOLADES
           </h2>

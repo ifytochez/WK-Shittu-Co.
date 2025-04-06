@@ -1,0 +1,19 @@
+@media (min-width: 640px) and (max-width: 760px) {
+  .consult {
+    width: 100%;
+    padding: 4rem 4rem;
+  }
+  .consult h2 {
+    font-size: 1.2rem;
+    justify-content: flex-start;
+  }
+  .consult p {
+    padding: 0;
+    padding-top: 1rem;
+    text-align: left;
+    margin-left: 0;
+    max-width: 100%;
+    margin-top: 0.4rem;
+    font-size: 1rem;
+  }
+}

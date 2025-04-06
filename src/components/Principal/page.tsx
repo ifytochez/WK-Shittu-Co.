@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Principal from "../../images/principal.jpg";
+import "./principal.css";
 
 export default function Page() {
   return (
-    <section className="relative flex flex-col items-center px-6 bg-white sm:pt-60">
-      {/* Hidden on mobile, visible on larger screens */}
-      <h1 className="hidden sm:block absolute top-[5rem] left-1/2 -translate-x-1/2 text-[9rem] font-bold text-gray-200 opacity-40 uppercase z-0">
+    <section className="principal-container relative flex flex-col items-center px-6 bg-white sm:pt-60">
+      <h1 className="principal-text hidden sm:block absolute top-[5rem] left-1/2 -translate-x-1/2 text-[9rem] font-bold text-gray-200 opacity-40 uppercase z-0">
         MEET THE PRINCIPAL
       </h1>
 
-      <div className="relative z-10 max-w-7xl sm:text-center w-[90%] mx-auto">
+      <div className="meeting relative z-10 max-w-7xl sm:text-center w-[90%] mx-auto">
         <h2 className="text-base sm:text-[2.2rem] font-[600] text-black text-center">
           MEET THE PRINCIPAL
         </h2>
@@ -22,11 +22,9 @@ export default function Page() {
         <div className="pt-8 border-b-2 border-[#034694] w-20 mx-auto"></div>
       </div>
 
-      {/* Image first on mobile, stays the same on larger screens */}
-      <div className="relative z-10 flex flex-col-reverse md:flex-row items-center md:items-start mt-16 sm:mt-32 w-full max-w-7xl mx-auto gap-12 px-6">
-        {/* Write-up section */}
+      <div className="biography relative z-10 flex flex-col-reverse md:flex-row items-center md:items-start mt-16 sm:mt-32 w-full max-w-7xl mx-auto gap-12 px-6">
         <div className="w-full md:w-1/2 md:pr-12">
-          <h2 className="text-base sm:text-[2.2rem] font-bold text-black">
+          <h2 className="principal-name text-base sm:text-[2.2rem] font-bold text-black">
             DR. WAHAB SHITTU SAN
           </h2>
           <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-700 leading-relaxed sm:px-0">
@@ -80,8 +78,7 @@ export default function Page() {
           </ul>
         </div>
 
-        {/* Image section */}
-        <div className="relative z-10 w-[100%] max-w-[500px] max-h-[600px] md:ml-auto">
+        <div className="image relative z-10 w-[100%] max-w-[500px] max-h-[600px] md:ml-auto">
           <Image
             src={Principal}
             alt="Dr. Wahab Shittu"

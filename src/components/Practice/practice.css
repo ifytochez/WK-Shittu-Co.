@@ -1,0 +1,27 @@
+@media (min-width: 640px) and (max-width: 760px) {
+  .practice {
+    text-align: left;
+    margin-left: 0;
+    max-width: 100%;
+    padding-left: 3.5rem;
+    padding-top: 5rem;
+  }
+  .practice h1 {
+    font-size: 1.3rem;
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .practice p {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .practice-text {
+    display: none !important;
+  }
+  .practice span {
+    font-size: 0.85rem;
+  }
+  .grid-container {
+    gap: 4rem;
+  }
+}
