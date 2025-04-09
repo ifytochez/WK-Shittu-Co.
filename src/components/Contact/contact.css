@@ -20,3 +20,29 @@
     padding-right: 9% !important;
   }
 }
+
+@media (min-width: 761px) and (max-width: 1200px) {
+  .contact {
+    display: flex;
+  }
+  .address {
+    width: 45%;
+  }
+  .address p {
+    font-size: 1rem;
+  }
+  .address a {
+    font-size: 1rem;
+  }
+  .form {
+    width: 45%;
+  }
+
+  .form button {
+    font-size: 1rem;
+  }
+  .responsive-padding {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+}

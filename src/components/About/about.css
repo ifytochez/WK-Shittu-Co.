@@ -15,6 +15,7 @@
   }
   .legal p {
     font-size: 1rem;
+    text-align: justify;
   }
   .mission {
     text-align: left;
@@ -27,6 +28,7 @@
 
   .mission p {
     font-size: 1rem;
+    text-align: justify;
   }
 
   .vision {
@@ -40,6 +42,7 @@
 
   .vision p {
     font-size: 1rem;
+    text-align: justify;
   }
 
   .reputation {
@@ -53,6 +56,7 @@
 
   .reputation p {
     font-size: 1rem;
+    text-align: justify;
   }
   .commitment {
     width: 100%;
@@ -66,10 +70,52 @@
 
   .commitment p {
     font-size: 1rem;
+    text-align: justify;
   }
 
   .welcome {
     padding-left: 1rem !important;
     padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1200px) {
+  .nav-padding-remove {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .nav-logo {
+    gap: 0rem;
+  }
+  .nav-logo h3 {
+    font-size: 1rem;
+  }
+  .nav-logo img {
+    width: 3.5rem;
+  }
+  .legal {
+    padding: 2.5rem 0;
+  }
+  .legal h1,
+  .mission h1,
+  .vision h1,
+  .reputation h1,
+  .commitment h2 {
+    font-size: 1.4rem;
+  }
+  .legal p,
+  .mission p,
+  .vision p,
+  .reputation p,
+  .commitment p {
+    font-size: 1.1rem;
+    justify-content: center;
+    text-align: justify;
+  }
+  .line {
+    padding-top: 1.5rem;
+  }
+  .welcome-text {
+    font-size: 8rem;
   }
 }

@@ -70,7 +70,7 @@ export default function Page() {
               : "bg-[#41708f] bg-opacity-80 text-white backdrop-blur-md"
           } nav-padding-remove`}
         >
-          <div className="flex items-center space-x-4">
+          <div className="nav-logo flex items-center space-x-4">
             <Image
               src={Logo}
               alt="Logo"
@@ -158,7 +158,7 @@ export default function Page() {
         </nav>
 
         {menuOpen && (
-          <div className="md:hidden fixed top-0 left-0 w-full h-screen bg-[#41708f] text-white flex flex-col items-center justify-center space-y-6 z-40">
+          <div className="links md:hidden fixed top-0 left-0 w-full h-screen bg-[#41708f] text-white flex flex-col items-center justify-center space-y-6 z-40">
             {[
               "home",
               "about",
@@ -184,7 +184,7 @@ export default function Page() {
           </div>
         )}
 
-        <div className="text-center px-6 md:px-16 lg:px-20">
+        <div className="innovative-solutions text-center px-6 md:px-16 lg:px-20">
           <p className="text-sm md:text-[2.6rem] font-light leading-tight">
             Innovative Solutions to the Most Complex Legal Problems.
           </p>

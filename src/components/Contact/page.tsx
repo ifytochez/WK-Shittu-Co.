@@ -4,7 +4,7 @@ import "./contact.css";
 
 const page = () => {
   return (
-    <div className="w-full px-[11%] flex flex-col-reverse md:flex-row justify-between items-center py-10 min-h-[80vh] bg-white responsive-padding">
+    <div className="contact w-full px-[11%] flex flex-col-reverse md:flex-row justify-between items-center py-10 min-h-[80vh] bg-white responsive-padding">
       <div className="address w-full sm:w-[45%] space-y-6 text-gray-800">
         <div className="flex items-start space-x-3 pb-4">
           <FaMapMarkerAlt className="text-blue-900" />

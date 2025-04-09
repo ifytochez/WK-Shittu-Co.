@@ -17,7 +17,7 @@ const Page = () => {
           lawyers of cognate experience in their various chosen areas of law -
           providing bespoke legal service to meet clients' individual needs.
         </p>
-        <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
+        <div className="line pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
       <section className="mission sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
@@ -31,7 +31,7 @@ const Page = () => {
           on building long-term relationships with our clients through
           integrity, professionalism, and a deep understanding of their needs.
         </p>
-        <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
+        <div className="line pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
       <section className="vision sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
@@ -45,7 +45,7 @@ const Page = () => {
           services that are not only efficient and effective but also align with
           the evolving demands of global business and governance.
         </p>
-        <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
+        <div className="line pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
       <section className="reputation sm:text-center py-6 sm:py-12 w-[90%] sm:w-full mx-auto">
@@ -60,7 +60,7 @@ const Page = () => {
           across Africa, Europe, Asia, America, and the rest of the world when
           conducting international transactions.
         </p>
-        <div className="pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
+        <div className="line pt-10 sm:pt-16 border-b-2 border-[#034694] w-16 sm:w-20 mx-auto"></div>
       </section>
 
       <section className="welcome relative flex flex-col lg:flex-row items-center justify-center py-12 sm:py-24 px-4 sm:px-6 mt-8">

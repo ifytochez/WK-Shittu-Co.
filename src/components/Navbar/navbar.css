@@ -1,6 +1,28 @@
 @media (min-width: 640px) and (max-width: 760px) {
   .nav-padding-remove {
-    padding-left: 20px !important; /* Adjust padding as needed */
+    padding-left: 20px !important;
     padding-right: 20px !important;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1200px) {
+  .nav-padding-remove {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .nav-logo {
+    gap: 0rem;
+  }
+  .nav-logo h3 {
+    font-size: 1rem;
+  }
+  .nav-logo img {
+    width: 3.5rem;
+  }
+  .links {
+    font-size: 2rem;
+  }
+  .innovative-solutions p {
+    font-size: 2rem;
   }
 }
