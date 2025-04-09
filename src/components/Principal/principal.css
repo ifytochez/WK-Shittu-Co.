@@ -35,3 +35,37 @@
     margin-top: 3rem;
   }
 }
+@media (min-width: 761px) and (max-width: 1024px) {
+  .principal-text {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .principal-text {
+    font-size: 7rem;
+  }
+  .meeting h2 {
+    font-size: 1.8rem;
+  }
+  .meeting p {
+    text-align: justify;
+  }
+  .principal-name {
+    font-size: 1.3rem;
+  }
+  .principal-container {
+    padding-left: 3rem;
+  }
+  .biography {
+    /* width: 51%; */
+    padding-left: 3rem;
+  }
+  .biography ul li {
+    font-size: 1rem;
+  }
+  .biography p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+}

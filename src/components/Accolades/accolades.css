@@ -22,3 +22,28 @@
     font-size: 1rem;
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .container {
+    all: unset;
+    display: flex;
+    padding-left: 2rem;
+  }
+  .text-container {
+    padding-left: 0;
+    width: 50%;
+    text-align: justify;
+  }
+  .image-container {
+    width: 50%;
+  }
+  .image-container img {
+    max-height: 400px;
+  }
+  .text-container h2 {
+    font-size: 1.3rem;
+  }
+  .text-container ul li {
+    font-size: 1rem;
+  }
+}

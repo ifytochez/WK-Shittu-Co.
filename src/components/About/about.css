@@ -79,7 +79,7 @@
   }
 }
 
-@media (min-width: 761px) and (max-width: 1400px) {
+@media (min-width: 761px) and (max-width: 1024px) {
   .nav-padding-remove {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -116,6 +116,69 @@
     padding-top: 1.5rem;
   }
   .welcome-text {
-    font-size: 8rem;
+    font-size: 6rem;
+  }
+  .image-containerr img {
+    width: 89%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .nav-padding-remove {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .nav-logo {
+    gap: 0rem;
+  }
+  .nav-logo h3 {
+    font-size: 1rem;
+  }
+  .nav-logo img {
+    width: 3.5rem;
+  }
+  .legal {
+    padding: 2.5rem 0;
+  }
+  .legal h1,
+  .mission h1,
+  .vision h1,
+  .reputation h1,
+  .commitment h2 {
+    font-size: 1rem;
+  }
+  .commitment {
+    padding: 0;
+  }
+  .commitment h2 {
+    text-align: start;
+  }
+  .legal p,
+  .mission p,
+  .vision p,
+  .reputation p,
+  .commitment p {
+    font-size: 1rem;
+    justify-content: center;
+    text-align: justify;
+  }
+  .line {
+    padding-top: 1.5rem;
+  }
+  .welcome-text {
+    font-size: 9rem;
+  }
+  .image-background {
+    width: 70%;
+  }
+  .image-containerr {
+    padding-left: 2rem;
+    translate: none !important;
+  }
+  .image-containerr img {
+    width: 89%;
+    margin: auto;
+    max-height: 450px;
   }
 }

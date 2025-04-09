@@ -17,3 +17,13 @@
     font-size: 1rem;
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .consult h2 {
+    font-size: 1.5rem;
+  }
+  .consult p {
+    text-align: justify;
+    font-size: 1rem;
+  }
+}

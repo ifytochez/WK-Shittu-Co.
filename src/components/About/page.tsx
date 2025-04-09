@@ -77,7 +77,7 @@ const Page = () => {
                 className="w-full h-auto object-contain lg:max-h-[550px]"
               />
             </div>
-            <div className="absolute top-[5%] right-[-5%] w-[100%] h-full bg-[#034694] -z-10 hidden lg:block"></div>
+            <div className="image-background absolute top-[5%] right-[-5%] w-[100%] h-full bg-[#034694] -z-10 hidden lg:block"></div>
           </div>
 
           <div className="commitment w-[90%] mx:auto lg:w-[50%] lg:pl-16 sm:text-center lg:text-left">

@@ -25,3 +25,27 @@
     gap: 4rem;
   }
 }
+
+@media (min-width: 761px) and (max-width: 1024px) {
+  .practice-text {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .practice {
+    padding-left: 4rem;
+  }
+  .practice-area {
+    font-size: 2rem;
+  }
+  .practice p {
+    font-size: 1rem;
+  }
+  .practice span {
+    font-size: 1rem;
+  }
+  .practice-text {
+    font-size: 7rem;
+  }
+}
